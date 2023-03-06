@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="pmarco.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="8" Y="10"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umacro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMacro"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="175"/>
+        <CursorPos X="19" Y="196"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="D:\lazarus\components\mouseandkeyinput\mouseandkeyinput.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MouseAndKeyInput"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="26"/>
+        <CursorPos X="5" Y="61"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="D:\components\mouseandkeyinput\mouseandkeyinput.pas"/>
+        <UnitName Value="MouseAndKeyInput"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="umacro.pas"/>
+        <Caret Line="195" Column="34" TopLine="172"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umacro.pas"/>
+        <Caret Line="207" Column="14" TopLine="170"/>
+      </Position2>
+      <Position3>
+        <Filename Value="D:\lazarus\components\mouseandkeyinput\mouseandkeyinput.pas"/>
+      </Position3>
+      <Position4>
+        <Filename Value="D:\lazarus\components\mouseandkeyinput\mouseandkeyinput.pas"/>
+        <Caret Line="30" Column="27"/>
+      </Position4>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

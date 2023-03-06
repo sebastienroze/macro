@@ -1,0 +1,127 @@
+object fMacro: TfMacro
+  Left = 334
+  Height = 582
+  Top = 161
+  Width = 473
+  Caption = 'Macro'
+  ClientHeight = 582
+  ClientWidth = 473
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.0.4'
+  object CbActif: TCheckBox
+    Left = 24
+    Height = 19
+    Top = 0
+    Width = 103
+    Caption = 'Touche F active'
+    OnChange = CbActifChange
+    OnClick = CbActifClick
+    TabOrder = 0
+  end
+  object RgToucheF: TRadioGroup
+    Left = 31
+    Height = 105
+    Top = 24
+    Width = 153
+    AutoFill = True
+    Caption = 'Choix de la touche F'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 4
+    ClientHeight = 85
+    ClientWidth = 149
+    Columns = 4
+    ItemIndex = 1
+    Items.Strings = (
+      'F1'
+      'F2'
+      'F3'
+      'F4'
+      'F5'
+      'F6'
+      'F7'
+      'F8'
+      'F9'
+      'F10'
+      'F11'
+      'F12'
+    )
+    OnClick = RgToucheFClick
+    TabOrder = 1
+  end
+  object CbEnreg: TCheckBox
+    Left = 24
+    Height = 19
+    Top = 144
+    Width = 100
+    Caption = 'Enregistrement'
+    TabOrder = 2
+  end
+  object LbTouche: TListBox
+    Left = 352
+    Height = 560
+    Top = 8
+    Width = 100
+    ItemHeight = 0
+    TabOrder = 3
+  end
+  object BtVider: TButton
+    Left = 40
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Vider'
+    OnClick = BtViderClick
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 216
+    Width = 40
+    Caption = 'Répéter'
+    ParentColor = False
+  end
+  object EdRepete: TEdit
+    Left = 16
+    Height = 23
+    Top = 232
+    Width = 80
+    TabOrder = 5
+    Text = '1'
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 306
+    Top = 264
+    Width = 320
+    Lines.Strings = (
+      'Aide :'
+      'Ce programme permet d''enregistrer et rejouer des macros '
+      'clavier.'
+      ''
+      'Attention à l''utilisation !'
+      ''
+      'Cocher "Touche F active" pour activer le programme.'
+      'Il est possible de choisir la touche F de F1 à F12'
+      ''
+      'Si la case à cocher "Enregistrement" est cochée, le '
+      'programme enregistrera les saisies clavier. Un aperçu est '
+      'disponnible sur la droite.'
+      'Le bouton "Vider" efface toute la saisie clavier déjà '
+      'enregistrée.'
+      ''
+      'La zone Répéter permet de répéter la marco autant de fois '
+      'que désiée.'
+      ''
+      'L''utilisation de la touche F active (F1 à F12) joura la marco.'
+    )
+    ReadOnly = True
+    TabOrder = 6
+  end
+end
